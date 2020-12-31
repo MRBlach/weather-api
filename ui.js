@@ -17,10 +17,10 @@ class UI {
     this.desc.textContent = weather.weather[0].description;
     this.string.textContent = weather.main.temp + '℉';
     this.icon.setAttribute('src', `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`);
-    this.sunrise.textContent = `Sunrise: ${new Date(weather.sys.sunrise*1000).toLocaleTimeString()}`;
-    this.sunset.textContent = `Sunset: ${new Date(weather.sys.sunset*1000).toLocaleTimeString()}`;
-    this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}%`;
-    this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like} '℉'` ;  
-    this.wind.textContent = `Wind: ${weather.wind.speed}mph`;
+    this.sunrise.innerHTML = `<b>Sunrise:</b> ${new Date(weather.sys.sunrise*1000).toLocaleTimeString()}`;
+    this.sunset.innerHTML = `<b>Sunset:</b> ${new Date(weather.sys.sunset*1000).toLocaleTimeString()}`;
+    this.humidity.innerHTML = `<b>Relative Humidity:</b> ${weather.main.humidity}%`;
+    this.feelsLike.innerHTML = `<b>Feels Like:</b> ${weather.main.feels_like} '℉'` ;  
+    this.wind.innerHTML = `<b>Wind:</b> ${weather.wind.speed}mph`;
   }
 }
