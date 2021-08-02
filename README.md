@@ -43,7 +43,7 @@ UI designed with a mobile first approach. Available across multiple devices.
 
 <img src="images/viewport.png">
 
-Here is a working live demonstration: https://mrblach.github.io/weather-api/
+Here is a working live [demonstration](https://mrblach.github.io/weather-api/)
 
 ### Steps To Execute This App
 - Download the entire code
