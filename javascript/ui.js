@@ -1,3 +1,4 @@
+// Create UI class
 class UI {
   constructor() {
     this.location = document.getElementById('w-location');
@@ -12,6 +13,7 @@ class UI {
     this.wind = document.getElementById('w-wind')
   }
 
+  // Output weather to UI
   paint(weather) {
     this.location.textContent = weather.name;
     this.desc.textContent = weather.weather[0].description;
@@ -24,3 +26,4 @@ class UI {
     this.wind.innerHTML = `<b>Wind:</b> ${weather.wind.speed}mph`;
   }
 }
+

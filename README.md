@@ -39,11 +39,11 @@ A simple app using Open Weather Map API to display current weather conditions pe
 
 ### Landing Page
 
-UI designed with a mobile first approach. Available across multiple devices.
+UI designed with BootStrap.
 
 <img src="images/viewport.png">
 
-Here is a working live demonstration: https://mrblach.github.io/weather-api/
+Here is a working live [demonstration](https://mrblach.github.io/weather-api/)
 
 ### Steps To Execute This App
 - Download the entire code
